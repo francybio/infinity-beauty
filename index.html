@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>INFINITYbeauty · Endospheres en Lloret de Mar</title>
+<meta name="description" content="INFINITYbeauty Endospheres: tratamientos faciales y corporales profesionales en Lloret de Mar. Endospheres, láser diodo, presoterapia, pestañas y manicura. Resultados visibles desde la primera sesión.">
+<meta name="theme-color" content="#0B0A09">
+<meta property="og:title" content="INFINITYbeauty · Resultados visibles desde la primera sesión">
+<meta property="og:description" content="Endospheres, láser diodo y tratamientos faciales y corporales en Lloret de Mar.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230B0A09'/%3E%3Cpath d='M32 32c-5-7-10-10-15-10a10 10 0 0 0 0 20c5 0 10-3 15-10zm0 0c5 7 10 10 15 10a10 10 0 0 0 0-20c-5 0-10 3-15 10z' fill='none' stroke='%23D8B97F' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8C6B3A"/><stop offset=".45" stop-color="#F1DDB0"/><stop offset=".7" stop-color="#C9A66B"/><stop offset="1" stop-color="#7A5A2E"/>
+    </linearGradient>
+    <symbol id="inf" viewBox="0 0 200 100"><path d="M100 50C125 14 176 16 178 50C176 84 125 86 100 50C75 14 24 16 22 50C24 84 75 86 100 50Z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ PRELOADER ============ -->
+<div class="loader" aria-hidden="true">
+  <svg class="loader__inf" viewBox="0 0 200 100"><path d="M100 50C125 14 176 16 178 50C176 84 125 86 100 50C75 14 24 16 22 50C24 84 75 86 100 50Z"/></svg>
+  <div class="loader__word"><span>I</span><span>N</span><span>F</span><span>I</span><span>N</span><span>I</span><span>T</span><span>Y</span></div>
+  <div class="loader__count"><span>0</span>%</div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="INFINITYbeauty — inicio">
+    <svg class="brand__inf"><use href="#inf"/></svg>
+    <span class="brand__word">INFINITY<em>beauty</em></span>
+  </a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#endospheres">Endospheres</a>
+    <a href="#tratamientos" data-i18n="nav.treat">Tratamientos</a>
+    <a href="#plan" data-i18n="nav.plan">Tu plan</a>
+    <a href="#oksana">Oksana</a>
+    <a href="#opiniones" data-i18n="nav.reviews">Opiniones</a>
+    <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+  </nav>
+  <div class="nav__right">
+    <span class="status" data-status><i></i><span class="status__text">&nbsp;</span></span>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button type="button" data-lang="es" class="is-active">ES</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <a class="btn btn--gold btn--sm magnetic nav__cta" href="#" data-wa target="_blank" rel="noopener"><span data-i18n="cta.book">Reservar</span></a>
+    <button class="burger" type="button" aria-label="Menú" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" aria-hidden="true">
+  <svg class="menu__inf"><use href="#inf"/></svg>
+  <nav class="menu__links">
+    <a href="#endospheres"><small>01</small><span>Endospheres</span></a>
+    <a href="#tratamientos"><small>02</small><span data-i18n="nav.treat">Tratamientos</span></a>
+    <a href="#plan"><small>03</small><span data-i18n="nav.plan">Tu plan</span></a>
+    <a href="#oksana"><small>04</small><span>Oksana</span></a>
+    <a href="#opiniones"><small>05</small><span data-i18n="nav.reviews">Opiniones</span></a>
+    <a href="#contacto"><small>06</small><span data-i18n="nav.contact">Contacto</span></a>
+  </nav>
+  <div class="menu__foot">
+    <span class="status" data-status><i></i><span class="status__text">&nbsp;</span></span>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button type="button" data-lang="es" class="is-active">ES</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="ru">RU</button>
+    </div>
+    <a class="btn btn--gold" href="#" data-wa target="_blank" rel="noopener"><span data-i18n="cta.bookLong">Reservar valoración</span></a>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero__vignette" aria-hidden="true"></div>
+  <p class="hero__top"><span>INFINITYbeauty</span><i></i><span>Endospheres</span><i></i><span>Lloret de Mar</span></p>
+
+  <div class="hero__content">
+    <h1 class="hero__title">
+      <span class="mask"><span data-i18n="hero.l1">Resultados visibles</span></span>
+      <span class="mask"><span data-i18n="hero.l2">desde la <em class="gold-text">primera sesión</em>.</span></span>
+    </h1>
+    <div class="hero__aside">
+      <p class="hero__lead" data-i18n="hero.lead">Tratamientos faciales y corporales profesionales en Lloret de Mar. Tecnología Endospheres, láser diodo y presoterapia, con un trato que se recuerda.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--gold magnetic" href="#" data-wa target="_blank" rel="noopener"><span data-i18n="cta.bookLong">Reservar valoración</span><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--ghost magnetic" href="#endospheres"><span data-i18n="cta.discover">Descubrir Endospheres</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__bar">
+    <a class="hero__rating" href="#opiniones"><span class="stars">★★★★★</span><b data-num="5.0">5,0</b><span data-i18n="hero.reviews">71 opiniones en Google</span></a>
+    <span class="status status--plain" data-status><i></i><span class="status__text">&nbsp;</span></span>
+    <span class="hero__addr">Av. del Rieral, 74 · Lloret de Mar</span>
+    <span class="hero__scroll" aria-hidden="true"><i></i><span data-i18n="hero.scroll">Scroll</span></span>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="band" aria-hidden="true">
+  <div class="band__track">
+    <span>Endospheres</span><svg><use href="#inf"/></svg><span data-i18n="band.laser">Láser diodo</span><svg><use href="#inf"/></svg><span data-i18n="band.preso">Presoterapia</span><svg><use href="#inf"/></svg><span data-i18n="band.facial">Facial</span><svg><use href="#inf"/></svg><span data-i18n="band.lashes">Pestañas</span><svg><use href="#inf"/></svg><span data-i18n="band.nails">Manicura</span><svg><use href="#inf"/></svg>
+    <span>Endospheres</span><svg><use href="#inf"/></svg><span data-i18n="band.laser">Láser diodo</span><svg><use href="#inf"/></svg><span data-i18n="band.preso">Presoterapia</span><svg><use href="#inf"/></svg><span data-i18n="band.facial">Facial</span><svg><use href="#inf"/></svg><span data-i18n="band.lashes">Pestañas</span><svg><use href="#inf"/></svg><span data-i18n="band.nails">Manicura</span><svg><use href="#inf"/></svg>
+  </div>
+</div>
+
+<!-- ============ ENDOSPHERES ============ -->
+<section class="endo" id="endospheres">
+  <div class="endo__intro">
+    <p class="eyebrow" data-reveal><span data-i18n="endo.kicker">Tecnología italiana</span></p>
+    <h2 class="h2" data-reveal>Endospheres <em class="gold-text">Therapy</em></h2>
+    <p class="lead" data-reveal data-i18n="endo.lead">Microvibración compresiva: un cilindro con esferas de silicona dispuestas en panal que trabaja los tejidos en profundidad. Sin agujas, sin dolor, con una sensación de masaje profundo.</p>
+  </div>
+
+  <div class="endo__lab" data-reveal>
+    <div class="endo__stage">
+      <canvas id="endoCanvas" aria-label="Visualización interactiva del cilindro Endospheres"></canvas>
+      <div class="endo__hud endo__hud--tl">
+        <div class="seg" role="group" aria-label="Modo">
+          <button type="button" class="is-active" data-mode="body" data-i18n="endo.body">Cuerpo</button>
+          <button type="button" data-mode="face" data-i18n="endo.face">Rostro</button>
+        </div>
+      </div>
+      <div class="endo__hud endo__hud--tr">
+        <span class="readout"><small data-i18n="endo.spheres">Esferas</small><b id="rdSpheres">55</b></span>
+        <span class="readout"><small data-i18n="endo.level">Nivel</small><b id="rdLevel">3/5</b></span>
+      </div>
+      <div class="endo__hud endo__hud--b">
+        <label class="slider">
+          <span data-i18n="endo.intensity">Intensidad</span>
+          <input type="range" id="endoRange" min="1" max="5" step="1" value="3">
+          <span class="slider__ticks"><i></i><i></i><i></i><i></i><i></i></span>
+        </label>
+        <span class="endo__drag"><svg class="ico" viewBox="0 0 24 24"><path d="M8 12h8M5 9l-3 3 3 3M19 9l3 3-3 3"/></svg><span data-i18n="endo.drag">Arrastra para girar</span></span>
+      </div>
+      <p class="endo__note" data-i18n="endo.note">Visualización ilustrativa</p>
+    </div>
+
+    <div class="endo__specs">
+      <div class="spec"><span class="spec__num"><b data-count="55">0</b></span><span class="spec__label" data-i18n="endo.s1">esferas de silicona en patrón de panal (manípulo corporal)</span></div>
+      <div class="spec"><span class="spec__num">2<sup>×</sup></span><span class="spec__label" data-i18n="endo.s2">acción combinada: compresión + microvibración</span></div>
+      <div class="spec"><span class="spec__num">IT</span><span class="spec__label" data-i18n="endo.s3">tecnología patentada, diseñada en Italia</span></div>
+      <div class="spec"><span class="spec__num">0</span><span class="spec__label" data-i18n="endo.s4">agujas · tratamiento no invasivo</span></div>
+    </div>
+  </div>
+
+  <div class="endo__benefits">
+    <h3 class="h3" data-reveal><span data-i18n="endo.bTitle">Qué trabaja</span></h3>
+    <ul class="benefits">
+      <li data-reveal><span class="benefits__n">01</span><b data-i18n="endo.b1">Celulitis</b><span data-i18n="endo.b1d">Suaviza la piel de naranja y mejora la textura.</span></li>
+      <li data-reveal><span class="benefits__n">02</span><b data-i18n="endo.b2">Retención de líquidos</b><span data-i18n="endo.b2d">Estimula el drenaje linfático: piernas más ligeras.</span></li>
+      <li data-reveal><span class="benefits__n">03</span><b data-i18n="endo.b3">Microcirculación</b><span data-i18n="endo.b3d">Activa la circulación y la oxigenación de los tejidos.</span></li>
+      <li data-reveal><span class="benefits__n">04</span><b data-i18n="endo.b4">Tonificación</b><span data-i18n="endo.b4d">Ayuda a recuperar firmeza y tono muscular.</span></li>
+      <li data-reveal><span class="benefits__n">05</span><b data-i18n="endo.b5">Remodelación</b><span data-i18n="endo.b5d">Redefine la silueta de forma progresiva.</span></li>
+      <li data-reveal><span class="benefits__n">06</span><b data-i18n="endo.b6">Firmeza facial</b><span data-i18n="endo.b6d">Con el manípulo facial: contorno, luz y líneas de expresión.</span></li>
+    </ul>
+  </div>
+
+  <div class="steps">
+    <h3 class="h3" data-reveal><span data-i18n="steps.title">Tu sesión, paso a paso</span></h3>
+    <div class="steps__rail">
+    <div class="steps__line"><span></span></div>
+    <ol class="steps__list">
+      <li><span class="steps__dot"></span><small>01</small><b data-i18n="steps.1">Valoración</b><p data-i18n="steps.1d">Escuchamos tus objetivos y estudiamos tu piel y tu zona a tratar.</p></li>
+      <li><span class="steps__dot"></span><small>02</small><b data-i18n="steps.2">Protocolo a medida</b><p data-i18n="steps.2d">Diseñamos la combinación de tratamientos y el ritmo de sesiones ideal.</p></li>
+      <li><span class="steps__dot"></span><small>03</small><b data-i18n="steps.3">La sesión</b><p data-i18n="steps.3d">Una experiencia cómoda, como un masaje profundo. Sales y sigues con tu día.</p></li>
+      <li><span class="steps__dot"></span><small>04</small><b data-i18n="steps.4">Seguimiento</b><p data-i18n="steps.4d">Medimos la evolución y ajustamos el plan para mantener los resultados.</p></li>
+    </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATEMENT ============ -->
+<section class="statement" aria-label="Infinity">
+  <div class="statement__media"><img loading="lazy" src="https://images.unsplash.com/photo-1590073933358-9d2149fc2b87?auto=format&fit=crop&w=2000&q=80" alt="Retrato en penumbra con luz cálida sobre el rostro"></div>
+  <div class="statement__text">
+    <p class="eyebrow eyebrow--center"><span>INFINITYbeauty</span></p>
+    <h2><span data-i18n="st.l1">Tu mejor versión,</span><br><em class="gold-text" data-i18n="st.l2">sin límites.</em></h2>
+  </div>
+</section>
+
+<!-- ============ TREATMENTS ============ -->
+<section class="treat" id="tratamientos">
+  <header class="treat__head">
+    <div>
+      <p class="eyebrow" data-reveal><span data-i18n="tr.kicker">Tratamientos</span></p>
+      <h2 class="h2" data-reveal><span data-i18n="tr.title">Rostro, cuerpo <br>y <em class="gold-text">mirada</em>.</span></h2>
+    </div>
+    <p class="lead" data-reveal data-i18n="tr.lead">Toca un tratamiento para conocerlo. Todos empiezan con una valoración personalizada.</p>
+  </header>
+
+  <div class="bento">
+    <button type="button" class="tile tile--body" data-t="body" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1741522509438-a120c0bb5e88?auto=format&fit=crop&w=1600&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.body.tag">Corporal</span>
+      <span class="tile__body"><b>Endospheres Body</b><span data-i18n="t.body.s">Celulitis, drenaje y remodelación.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile tile--face" data-t="face" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1643684391140-c5056cfd3436?auto=format&fit=crop&w=1100&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.face.tag">Facial</span>
+      <span class="tile__body"><b>Endospheres Face</b><span data-i18n="t.face.s">Firmeza, luminosidad y contorno.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile" data-t="laser" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1700760933574-9f0f4ea9aa3b?auto=format&fit=crop&w=900&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.laser.tag">Depilación</span>
+      <span class="tile__body"><b data-i18n="t.laser.t">Láser diodo</b><span data-i18n="t.laser.s">Piel suave, de forma duradera.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile" data-t="preso" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1587179790059-5f5d937fb87d?auto=format&fit=crop&w=900&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.preso.tag">Drenaje</span>
+      <span class="tile__body"><b data-i18n="t.preso.t">Presoterapia</b><span data-i18n="t.preso.s">Piernas ligeras y circulación activa.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile" data-t="facial" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.facial.tag">Facial</span>
+      <span class="tile__body"><b data-i18n="t.facial.t">Tratamientos faciales</b><span data-i18n="t.facial.s">Limpieza, acné e hidratación.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile" data-t="lashes" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1639629509821-c54cdd984227?auto=format&fit=crop&w=900&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.lashes.tag">Mirada</span>
+      <span class="tile__body"><b data-i18n="t.lashes.t">Extensiones de pestañas</b><span data-i18n="t.lashes.s">Una mirada intensa, cada día.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile" data-t="nails" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?auto=format&fit=crop&w=900&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.nails.tag">Manos</span>
+      <span class="tile__body"><b data-i18n="t.nails.t">Manicura</b><span data-i18n="t.nails.s">Manos cuidadas, acabado impecable.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="tile" data-t="makeup" data-cursor="+">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1704621354138-e124277356f2?auto=format&fit=crop&w=900&q=75" alt="">
+      <span class="tile__tag" data-i18n="t.makeup.tag">Ocasiones</span>
+      <span class="tile__body"><b data-i18n="t.makeup.t">Maquillaje</b><span data-i18n="t.makeup.s">Para tus días especiales.</span></span>
+      <span class="tile__plus" aria-hidden="true"></span>
+    </button>
+  </div>
+</section>
+
+<!-- ============ PLAN CONFIGURATOR ============ -->
+<section class="plan" id="plan">
+  <header class="plan__head">
+    <p class="eyebrow" data-reveal><span data-i18n="plan.kicker">Configurador</span></p>
+    <h2 class="h2" data-reveal><span data-i18n="plan.title">Diseña tu <em class="gold-text">plan</em>.</span></h2>
+    <p class="lead" data-reveal data-i18n="plan.lead">Marca las zonas y tus objetivos. Te mostramos el protocolo orientativo y nos lo envías en un toque.</p>
+  </header>
+
+  <div class="plan__grid">
+    <div class="plan__body" data-reveal>
+      <svg class="figure" viewBox="0 0 200 460" role="group" aria-label="Zonas del cuerpo">
+        <defs>
+          <radialGradient id="zoneGlow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#F1DDB0" stop-opacity=".55"/><stop offset="1" stop-color="#C9A66B" stop-opacity=".18"/></radialGradient>
+        </defs>
+        <g class="figure__base">
+          <path d="M92 64v16M108 64v16"/>
+          <path d="M74 92C86 84 114 84 126 92C130 112 126 134 123 150L77 150C74 134 70 112 74 92Z"/>
+        </g>
+        <ellipse class="zone" data-zone="rostro" cx="100" cy="38" rx="22" ry="27"/>
+        <path class="zone" data-zone="brazos" d="M70 92C58 100 54 140 51 170C49 195 47 215 45 232L55 234C59 214 63 190 65 170C67 150 71 128 74 116Z M130 92C142 100 146 140 149 170C151 195 153 215 155 232L145 234C141 214 137 190 135 170C133 150 129 128 126 116Z"/>
+        <path class="zone" data-zone="abdomen" d="M77 150L123 150C121 168 124 190 128 212L72 212C76 190 79 168 77 150Z"/>
+        <path class="zone" data-zone="gluteos" d="M72 212L128 212C134 230 136 248 134 266L66 266C64 248 66 230 72 212Z"/>
+        <path class="zone" data-zone="piernas" d="M66 266L99 266C98 300 96 340 94 380C93 400 92 420 92 444L80 444C79 420 78 400 77 380C74 340 68 300 66 266Z M101 266L134 266C132 300 126 340 123 380C122 400 121 420 120 444L108 444C108 420 107 400 106 380C104 340 102 300 101 266Z"/>
+      </svg>
+      <ul class="zones" role="group" aria-label="Zonas">
+        <li><button type="button" data-zone="rostro"><i></i><span data-i18n="z.rostro">Rostro</span></button></li>
+        <li><button type="button" data-zone="brazos"><i></i><span data-i18n="z.brazos">Brazos</span></button></li>
+        <li><button type="button" data-zone="abdomen"><i></i><span data-i18n="z.abdomen">Abdomen</span></button></li>
+        <li><button type="button" data-zone="gluteos"><i></i><span data-i18n="z.gluteos">Glúteos y caderas</span></button></li>
+        <li><button type="button" data-zone="piernas"><i></i><span data-i18n="z.piernas">Piernas</span></button></li>
+      </ul>
+    </div>
+
+    <div class="plan__side">
+      <div class="plan__goals" data-reveal>
+        <p class="plan__label"><span data-i18n="plan.goals">¿Qué quieres conseguir?</span></p>
+        <div class="goals" role="group" aria-label="Objetivos">
+          <button type="button" class="goal" data-goal="celulitis" data-i18n="g.celulitis">Reducir celulitis</button>
+          <button type="button" class="goal" data-goal="reafirmar" data-i18n="g.reafirmar">Reafirmar</button>
+          <button type="button" class="goal" data-goal="drenar" data-i18n="g.drenar">Piernas ligeras</button>
+          <button type="button" class="goal" data-goal="rejuvenecer" data-i18n="g.rejuvenecer">Rostro luminoso</button>
+          <button type="button" class="goal" data-goal="depilar" data-i18n="g.depilar">Depilación duradera</button>
+          <button type="button" class="goal" data-goal="mirada" data-i18n="g.mirada">Mirada intensa</button>
+        </div>
+      </div>
+
+      <div class="plan__card" aria-live="polite" data-reveal>
+        <div class="plan__cardHead">
+          <svg class="plan__inf"><use href="#inf"/></svg>
+          <span data-i18n="plan.cardTitle">Tu plan Infinity</span>
+          <span class="plan__count" id="planCount">0</span>
+        </div>
+        <div class="plan__out" id="planOut"></div>
+        <p class="plan__note" data-i18n="plan.note">Protocolo orientativo. Lo confirmamos y personalizamos en tu primera valoración.</p>
+        <a class="btn btn--gold magnetic plan__cta is-disabled" id="planCta" href="#" target="_blank" rel="noopener"><span data-i18n="plan.cta">Enviar mi plan por WhatsApp</span><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OKSANA ============ -->
+<section class="oks" id="oksana">
+  <div class="oks__media" data-reveal>
+    <img loading="lazy" src="https://images.unsplash.com/photo-1706795033728-9232ef548a16?auto=format&fit=crop&w=1400&q=80" alt="Masaje facial en cabina">
+    <span class="oks__badge"><svg><use href="#inf"/></svg></span>
+  </div>
+  <div class="oks__text">
+    <p class="eyebrow" data-reveal><span data-i18n="ok.kicker">Tu especialista</span></p>
+    <h2 class="h2" data-reveal>Oksana</h2>
+    <p class="lead" data-reveal data-i18n="ok.lead">Manos expertas y trato humano. Detrás de cada tratamiento hay escucha, precisión y un único objetivo: que te veas y te sientas mejor desde la primera sesión.</p>
+    <div class="quotes" data-reveal>
+      <figure class="quote is-active"><blockquote>“Oksana es una gran profesional y una persona con un enorme corazón. El trato al cliente es 1000/100.”</blockquote><figcaption>Victoria F. · Local Guide</figcaption></figure>
+      <figure class="quote"><blockquote>“Tiene unas manos increíbles. Además de trabajar muy bien, me ha dejado súper relajada.”</blockquote><figcaption>Magdalena V.</figcaption></figure>
+      <figure class="quote"><blockquote>“Una profesional de nivel muy alto y una persona que te hace sentir muy cómoda.”</blockquote><figcaption>Qamar N.</figcaption></figure>
+      <div class="quotes__bars"><button type="button" aria-label="1"><i></i></button><button type="button" aria-label="2"><i></i></button><button type="button" aria-label="3"><i></i></button></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="rev" id="opiniones">
+  <div class="rev__top">
+    <div class="rev__score" data-reveal>
+      <p class="eyebrow"><span data-i18n="rev.kicker">Opiniones</span></p>
+      <span class="rev__num gold-text" data-count="5.0">0,0</span>
+      <span class="rev__stars" aria-hidden="true">★★★★★</span>
+      <span class="rev__total" data-i18n="rev.count">71 opiniones en Google</span>
+    </div>
+    <div class="rev__dist" data-reveal>
+      <div class="dist"><span>5</span><div class="dist__bar"><i style="--w:97.2%"></i></div><b>69</b></div>
+      <div class="dist"><span>4</span><div class="dist__bar"><i style="--w:2.8%"></i></div><b>2</b></div>
+      <div class="dist"><span>3</span><div class="dist__bar"><i style="--w:0%"></i></div><b>0</b></div>
+      <div class="dist"><span>2</span><div class="dist__bar"><i style="--w:0%"></i></div><b>0</b></div>
+      <div class="dist"><span>1</span><div class="dist__bar"><i style="--w:0%"></i></div><b>0</b></div>
+    </div>
+  </div>
+  <div class="rail" data-cursor-drag>
+    <div class="rail__track">
+      <figure class="rcard"><span class="rcard__stars">★★★★★</span><blockquote>“Oxana es una persona maravillosa, muy humana. Me he hecho una limpieza de cara y he quedado encantada. ¡Repetiré seguro!”</blockquote><figcaption><b>Magdalena V.</b><span>Google</span></figcaption></figure>
+      <figure class="rcard"><span class="rcard__stars">★★★★★</span><blockquote>“Primera vez que la hago, y realmente la piel quedó exquisita.”</blockquote><figcaption><b data-i18n="rev.client">Reseña</b><span>Google</span></figcaption></figure>
+      <figure class="rcard"><span class="rcard__stars">★★★★★</span><blockquote>“Oksana es una profesional de nivel muy alto. Recomiendo todos los tratamientos disponibles.”</blockquote><figcaption><b>Qamar N.</b><span>Google</span></figcaption></figure>
+      <figure class="rcard"><span class="rcard__stars">★★★★★</span><blockquote>“Gran profesional y excelente trato.”</blockquote><figcaption><b data-i18n="rev.client">Reseña</b><span>Google</span></figcaption></figure>
+      <figure class="rcard"><span class="rcard__stars">★★★★★</span><blockquote>“Una gran profesional y una persona con un enorme corazón. ¡Muchas gracias por todo!”</blockquote><figcaption><b>Victoria F.</b><span>Local Guide · Google</span></figcaption></figure>
+      <figure class="rcard"><span class="rcard__stars">★★★★★</span><blockquote>“Un agradecimiento especial a la propietaria del salón, Oksana.”</blockquote><figcaption><b data-i18n="rev.client">Reseña</b><span>Google</span></figcaption></figure>
+    </div>
+  </div>
+  <div class="rev__foot">
+    <p data-i18n="rev.note">Opiniones reales publicadas en Google Maps (en español).</p>
+    <div class="rail__nav"><button type="button" class="rail__btn" data-dir="-1" aria-label="Anterior"><svg class="ico" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button><button type="button" class="rail__btn" data-dir="1" aria-label="Siguiente"><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contacto">
+  <div class="contact__info">
+    <p class="eyebrow" data-reveal><span data-i18n="ct.kicker">Contacto</span></p>
+    <h2 class="h2" data-reveal><span data-i18n="ct.title">Te esperamos en <em class="gold-text">Lloret</em>.</span></h2>
+    <span class="status status--lg" data-status data-reveal><i></i><span class="status__text">&nbsp;</span></span>
+    <ul class="hours" data-reveal></ul>
+    <dl class="contact__dl" data-reveal>
+      <div><dt data-i18n="ct.addr">Dirección</dt><dd>Av. del Rieral, 74, local 7<br>17310 Lloret de Mar, Girona</dd></div>
+      <div><dt data-i18n="ct.phone">Teléfono</dt><dd><a href="tel:+34647707970">647 70 79 70</a></dd></div>
+      <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/infinity_beauty_lloret/" target="_blank" rel="noopener">@infinity_beauty_lloret</a></dd></div>
+    </dl>
+    <div class="contact__ctas" data-reveal>
+      <a class="btn btn--gold magnetic" href="#" data-wa target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn--ghost magnetic" href="https://www.google.com/maps/dir/?api=1&destination=INFINITYbeauty%20ENDOSPHERES%2C%20Av.%20del%20Rieral%2074%2C%20Lloret%20de%20Mar" target="_blank" rel="noopener"><span data-i18n="ct.route">Cómo llegar</span></a>
+      <a class="btn btn--ghost magnetic" href="tel:+34647707970"><span data-i18n="ct.call">Llamar</span></a>
+    </div>
+  </div>
+  <div class="contact__map" data-reveal>
+    <iframe title="Mapa INFINITYbeauty" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=INFINITYbeauty%20ENDOSPHERES%2C%20Av.%20del%20Rieral%2074%2C%20Lloret%20de%20Mar&z=16&output=embed"></iframe>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <a class="footer__cta" href="#" data-wa target="_blank" rel="noopener">
+    <span class="footer__small" data-i18n="ft.small">Tu primera sesión empieza aquí</span>
+    <span class="footer__big"><span data-i18n="ft.big">Reserva tu valoración</span><svg class="ico" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg></span>
+  </a>
+  <div class="footer__mark" aria-hidden="true">
+    <span>INFINITY</span>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 INFINITYbeauty Endospheres</span>
+    <span>Av. del Rieral, 74, local 7 · Lloret de Mar</span>
+    <a href="https://www.instagram.com/infinity_beauty_lloret/" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</footer>
+
+<!-- ============ DRAWER ============ -->
+<div class="drawer" aria-hidden="true">
+  <div class="drawer__backdrop" data-close></div>
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <button type="button" class="drawer__close" data-close aria-label="Cerrar"><span></span><span></span></button>
+    <div class="drawer__img"><img alt=""></div>
+    <div class="drawer__content">
+      <span class="drawer__tag"></span>
+      <h3 class="drawer__title" id="drawerTitle"></h3>
+      <p class="drawer__desc"></p>
+      <ul class="drawer__list"></ul>
+      <p class="drawer__proto"></p>
+      <a class="btn btn--gold drawer__cta" href="#" target="_blank" rel="noopener"><span data-i18n="cta.bookThis">Reservar este tratamiento</span><svg class="ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </aside>
+</div>
+
+<a class="wa-fab" href="#" data-wa target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.1L2 22l5-1.3A11 11 0 0 0 20.5 3.5Zm-8.4 17a9 9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3a9 9 0 1 1 7.3 3.9Zm5-6.7c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1l-.8 1c-.2.2-.3.2-.6.1a7.4 7.4 0 0 1-3.7-3.2c-.3-.5.3-.5.8-1.6.1-.2 0-.3 0-.5l-.9-2c-.2-.6-.5-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-1 2.3 5.3 5.3 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.9-1.3c.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.5-.3Z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
